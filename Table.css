@@ -45,8 +45,7 @@ table {
   background: #f5efe6;
 }
 
-th,
-td {
+th, td {
   border: 1px solid #9a8062;
   padding: 8px;
   text-align: left;
@@ -56,13 +55,7 @@ th {
   background: #d2bea3;
 }
 
-tr:nth-child(even) {
-  background: #ece1d1;
-}
-
-article,
-section,
-aside {
+article, section, aside {
   margin: 24px 0;
 }
 
@@ -75,49 +68,24 @@ nav > a {
   margin: 0 6px;
 }
 
-h1 + .centered {
-  margin-top: 0;
-}
-
 a[href] {
   text-decoration: underline;
 }
 
-[class~="centered"] {
-  text-align: center;
-}
-
-[lang|="uk"] {
-  hyphens: auto;
-}
-
 article > :first-child {
-  margin-top: 0;
+  margin-top: 32px;
 }
 
 a:active {
   color: #9a4d20;
 }
 
-a:focus,
-input:focus,
-textarea:focus,
-select:focus {
-  outline: 2px solid #704b20 !important;
-  outline-offset: 2px;
-}
-
-tr:last-of-type {
-  border-bottom: 2px solid #9a8062;
+tr:first-of-type { 
+  border-top: 4px solid #9a8062; 
 }
 
 article p:first-of-type {
   font-weight: 600;
-}
-
-input:invalid,
-textarea:invalid {
-  border: 2px solid #a33;
 }
 
 :lang(uk) {
