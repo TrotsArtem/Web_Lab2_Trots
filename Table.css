@@ -4,7 +4,7 @@ body {
   padding: 24px;
   background: #e4d8c7;
   color: #271804;
-  font-family: Arial, sans-serif;
+  font-family: Arial, monospace;
   line-height: 1.6;
 }
 
@@ -36,7 +36,7 @@ h1 {
 }
 
 .definition {
-  font-family: monospace;
+  font-family:Arial, monospace;
 }
 
 table {
@@ -129,8 +129,7 @@ p::first-line {
 }
 
 h1::before {
-  content: "✦ ";
-  color: #704b20;
+  content: "🛋️ ";
 }
 
 @media (max-width: 600px) {
